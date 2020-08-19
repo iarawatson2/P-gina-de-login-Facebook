@@ -1,0 +1,218 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: grid;
+  grid-template-areas:"header header""main main""footer footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 15vh 85vh 25vh;
+  
+}
+
+header{
+  grid-area: header;
+  background-color: #3b5998;
+
+}
+.logo{
+  margin: 15px 0px 15px 190px;
+}
+.formulario1{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  left: 760px;
+  bottom: 539px;
+  color: #fff;
+  
+}
+#tell{
+  color: #ffff;
+  font-size: 12px;
+}
+#sen{
+  color: #ffff;
+  font-size: 12px;
+ 
+}
+th{
+  text-align: left;
+  
+}
+table{
+  border: 5px solid transparent;
+  
+}
+.zero{
+  width:4px;
+}
+#entrar{
+  background-color: #4267b2;
+  padding: 2px 6px 0px 0px;
+  color: #fff;
+  border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 6px;
+    text-align: center;
+}
+a{
+  text-decoration: none;
+  color:#9cb4d8;
+  font-size: 12px;
+  
+
+}
+main{
+  grid-area: main;
+  background: linear-gradient(white, #D3D8E8);
+  width: auto;
+}
+.esquerda{
+  margin-left: 200px;
+  width: 500px;
+  height: 499px;
+}
+.texto{
+  height: 56px;
+  color: #0e385f;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 29px;
+  padding-top: 40px ;
+  width: 450px;
+  word-spacing: -1px;
+}
+.imagem{
+  padding-top: 50px;
+}
+.direita{
+  position: relative;
+  width: 500px;
+  height: 520px;
+  left: 550px;
+  bottom: 95px;
+}
+h6{
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  font-size: 19px;
+}
+.textodireita {
+  padding: 20px 0px 20px 0px;
+
+}
+#caixaname{
+  width: 194px;
+  height: 38px;
+  border-color: #bdc7d8;
+ border-radius: 5px;
+ font-size: 18px;
+ padding-left: 3px;
+}
+#caixasurname{
+  width: 194px;
+  height: 39px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+}
+#cellemail{
+  width: 399px;
+  height:39px ;
+  margin-top: 10px;
+  font-size: 18px;
+}
+#caixasenha{
+  width: 399px;
+  height:39px ;
+  margin-top: 10px;
+  font-size: 18px;
+}
+#data{
+  width: 170px;
+  height: 30px;
+  color: #1c1e21;
+  font-size: 18px;
+  text-align: center;
+}
+h5{
+  display: block;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#90949c;
+  margin:10px 0px 5px 0px;
+}
+label{
+ color: #1d2129;
+ font-size: 18px;
+ font-family: Arial, Helvetica, sans-serif;
+padding: 0px 10px 0px 3px;
+}
+.textop{
+  color: #777;
+    font-size: 11px;
+    width: 316px;
+    margin: 11px 0px 11px 0px;
+}
+.inscrever{
+  border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+.inscrever a{
+  font-size: 13px;
+
+}
+button{
+  position: relative;
+  color: #fff;
+  font-size: 19px;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+  border-radius: 5px;
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+}
+
+footer{
+  grid-area: footer;
+}
+.lista{
+  width: 700px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: inherit;
+  margin:10px 0px 10px 300px;
+}
+ul li{
+  display: inline;
+  padding: 0px 0px 0px 10px;
+}
+.linhafinal{
+  width: 980px;
+  height: 1px;
+  background-color:  #dddfe2;
+  margin-left:150px;
+}
+.nomefinal{
+  margin:20px 0px 0px 250px;
+  width: 800px;
+}
+.meunome{
+  margin: 10px 0px 0px 550px;
+  font-size: 20px
+}
